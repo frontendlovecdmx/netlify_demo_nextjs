@@ -1,13 +1,14 @@
-import { Fragment } from 'react';
 import Head from '../Head';
+import Navigation from '../Navigation';
 
 const Layout = ({ children }) => (
-  <Fragment>
+  <section>
     <Head />
     <main>
+      <Navigation />
       {children}
     </main>
-  </Fragment>
+  </section>
 );
 
 export default Layout;
