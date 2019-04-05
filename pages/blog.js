@@ -20,6 +20,7 @@ class Blog extends Component {
       <Layout>
         <h1>Blog</h1>
         <p>Aquí colocaremos el listado de entradas de tu blog.</p>
+        <p>Holaaaa amigos :D</p>
         <ul>
           {posts.map(post => (
             <li key={post.id}>
